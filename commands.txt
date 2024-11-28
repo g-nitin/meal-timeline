@@ -1,0 +1,3 @@
+  cd my-react-d3-app
+  npm install
+  npm run dev
