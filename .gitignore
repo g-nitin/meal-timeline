@@ -23,4 +23,22 @@ dist-ssr
 *.sln
 *.sw?
 
+node_modules
+.pnp
+.pnp.js
+
+# Production
+dist
+build
+
+# Testing
+coverage
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 own/

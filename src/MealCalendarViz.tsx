@@ -1,5 +1,5 @@
 // MealCalendarViz.tsx
-import React, { useState, useMemo, useRef, useEffect } from "react";
+import React, { useState, useMemo, useRef } from "react";
 import * as d3 from "d3";
 import { DayMeals, Meal } from "./types";
 import { motion, AnimatePresence } from "framer-motion";
