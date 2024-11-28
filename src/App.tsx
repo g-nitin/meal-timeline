@@ -84,6 +84,7 @@ function App() {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-semibold mb-4">Weekly Meal Calendar</h1>
+      <p className="mb-4">This is a sample weekly meal calendar visualization. <i>Please use with light-mode for now.</i></p>
       <MealCalendarViz weekData={sampleData} />
     </div>
   );
