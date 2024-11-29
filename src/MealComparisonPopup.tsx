@@ -1,8 +1,7 @@
 // MealComparisonPopup.tsx
 import React, { useMemo } from "react";
 import { Meal } from "./types";
-import { motion, AnimatePresence } from "framer-motion";
-import { format } from "date-fns";
+import { motion } from "framer-motion";
 
 interface MealComparisonPopupProps {
   meal1: Meal;
